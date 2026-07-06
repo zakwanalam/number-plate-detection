@@ -7,7 +7,7 @@ export type ThemedTextProps = TextProps & {
   darkColor?: string;
   type?: 'default' | 'title' | 'defaultSemiBold' | 'subtitle' | 'link';
 };
-
+//lets change the name of the component to ThemedText
 export function ThemedText({
   style,
   lightColor,
